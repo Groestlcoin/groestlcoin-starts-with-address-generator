@@ -1,22 +1,22 @@
 {
-  "name": "bitcoin-starts-with-address-generator",
+  "name": "groestlcoin-starts-with-address-generator",
   "version": "1.0.0",
-  "description": "Generates a bitcoin key pair where the public key is in the format \"1&lt;string>.....\" and the string is passed in by the user.",
+  "description": "Generates a groestlcoin key pair where the public key is in the format \"F&lt;string>.....\" and the string is passed in by the user.",
   "main": "generate-address.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aditya1118sehgal/bitcoin-starts-with-address-generator.git"
+    "url": "git+https://github.com/Groestlcoin/groestlcoin-starts-with-address-generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aditya1118sehgal/bitcoin-starts-with-address-generator/issues"
+    "url": "https://github.com/Groestlcoin/groestlcoin-starts-with-address-generator/issues"
   },
-  "homepage": "https://github.com/aditya1118sehgal/bitcoin-starts-with-address-generator#readme",
+  "homepage": "https://github.com/Groestlcoin/groestlcoin-starts-with-address-generator#readme",
   "dependencies": {
-    "bitcoinjs-lib": "^5.1.6"
+    "groestlcoinjs-lib": "^5.1.7"
   }
 }

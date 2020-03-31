@@ -1,5 +1,5 @@
-# bitcoin-starts-with-address-generator
-Generates a bitcoin key pair where the public key is in the format "1&lt;string>....." and the string is passed in by the user.
+# groestlcoin-starts-with-address-generator
+Generates a groestlcoin key pair where the public key is in the format "F&lt;string>....." and the string is passed in by the user.
 
 
 ### Installation

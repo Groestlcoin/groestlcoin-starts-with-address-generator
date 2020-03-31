@@ -1,8 +1,8 @@
-const b = require ('bitcoinjs-lib');
+const b = require ('groestlcoinjs-lib');
 
 /**
- * @param {string} startsWith (case insensitive) text at the beginning of the generated bitcoin address
- * @return {string} bitcoin public key address that starts with '1<startsWith>'
+ * @param {string} startsWith (case insensitive) text at the beginning of the generated groestlcoin address
+ * @return {string} groestlcoin public key address that starts with '1<startsWith>'
  */
 const genAddrStartsWith = startsWith => {
   if (startsWith) {
@@ -12,7 +12,7 @@ const genAddrStartsWith = startsWith => {
       const keyPair = b
       .ECPair.makeRandom();
       const {address} = b.payments.p2pkh ({pubkey: keyPair.publicKey});
-      if (address && address.toLowerCase ().startsWith ('1' + startsWith)) {
+      if (address && address.toLowerCase ().startsWith ('F' + startsWith)) {
         found = true;
         key = address;
       }
